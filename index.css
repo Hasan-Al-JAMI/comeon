@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 94vh;
+}
+.main{
+    flex: 1;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    color: hotpink;
+    padding: 1px;
+    position: relative;
+    width: 100%;
+}
+
+.tile-image{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+.card{
+    width: 45%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+span{
+    color: red;
+}
+@media(max-width: 680px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .tile-image{
+        width: 100%;
+        display: inline;
+        margin-bottom: 30px;
+        
+    }
+
+}
